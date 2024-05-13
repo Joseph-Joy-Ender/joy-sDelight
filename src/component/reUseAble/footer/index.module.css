@@ -1,0 +1,39 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+
+}
+
+.firstCont{
+    color: #D9DBE1;
+}
+
+input{
+    background: black;
+    border-color: white;
+    padding: 7px 0 7px;
+    border-radius: 3px;
+
+}
+
+input::placeholder{
+    color: #D9DBE1;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.send{
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: 0.57rem;
+    cursor: pointer;
+}
+
+.socialIcon{
+    display: flex;
+    gap: 10px;
+}
+

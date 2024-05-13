@@ -1,0 +1,40 @@
+.mainCont{
+    display: flex;
+    background: black;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: fixed;
+    width: 100rem;
+    top: 0;
+}
+
+.secondCont > p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.secondCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link{
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+}
+
+.dropdown{
+    background: black;
+    /*padding-top: 1rem;*/
+    align-items: center;
+    align-content: center;
+}
+
+.dropdown > select{
+    background: black;
+    border-color: black;
+    color: white;
+    cursor: pointer;
+}
